@@ -5,3 +5,5 @@ typings/
 *.orig
 .idea/
 compile_css
+
+docs
