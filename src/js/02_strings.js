@@ -9,7 +9,7 @@ console.log('clase2');
 * .toLowerCase() => Pasa a minusculas
 * .trim() => Elimina los espacios en blanco al inicio y final
 */
-
+console.clear();
 var miString = "Hola mundo";
 console.log(miString.length);
 console.log(miString.indexOf('m'));

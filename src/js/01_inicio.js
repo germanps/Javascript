@@ -1,5 +1,6 @@
 
 /*Javascript es CaseSensitive*/
+console.clear();
 var a = "Alumno",
     b = "Alumno";
 
