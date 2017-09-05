@@ -1,4 +1,14 @@
 console.log('clase2');
+/*
+* .lenght() => retorna la longitud
+* .indexof() => Indice de un elemento
+* .substring() => Crea una cadena con cierta fraccion de la cadena original
+* .slice() => Igual que substring pero tambien admite valores negativos
+* .replace() => reemplaza primer param. por el segundo param.
+* .toUpperCase() => Pasa a mayusculas
+* .toLowerCase() => Pasa a minusculas
+* .trim() => Elimina los espacios en blanco al inicio y final
+*/
 
 var miString = "Hola mundo";
 console.log(miString.length);
@@ -22,5 +32,8 @@ console.log(miString);
 var miSlice = miString.slice(1, -3);
 console.log(miSlice);
 
+//Trim elimina los espacios en blanco
+var trimString = "   Hola mundo   ";
+console.log(trimString);
+console.log(trimString.trim());
 
-debugger;
