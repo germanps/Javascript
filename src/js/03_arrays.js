@@ -55,16 +55,30 @@ var newArray2 = [1, 2, 3, 4, 5];
 var newArray3 = newArray2.slice(1, 3);
 console.log(newArray3);
 
-//Modificar Arrays
+//Modificar Arrays(quitar y meter elementos en cualquier sitio);
 var newArray3 = [1, 2, 3, 4, 5];
 var newArray4 = newArray3.splice(1, 2);
 console.log(newArray4);
 console.log(newArray3);
 
+var newArray5 = [1, 2, 3, 4, 5];
+console.log(newArray5.splice(1, 4));
+console.log(newArray5);
+
+
+/*****Ejercicio*****/
+var numeros = [1, 2, 3, 4, 5];
+//eliminar el 3
+console.log(numeros.splice(2, 1));
+console.log(numeros);
+//agregar elemento 
+var numeros2 = [1, 2, 3, 4, 5];
+numeros2.splice(3,0,"Nuevo elemento", "Otro más");//con el 0 no elimina nada
+console.log(numeros2);
 
 //Recorrer todo el array e imprimirlo
 for (var i = 0; i < arr1.length; i++) {
-	//console.log(arr1[i]);
+	//console.log(arr1[i]); 
 }
 
 
