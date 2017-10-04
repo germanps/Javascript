@@ -37,3 +37,18 @@ var trimString = "   Hola mundo   ";
 console.log(trimString);
 console.log(trimString.trim());
 
+/******* EcmaScript 6 *******/
+let holaMundo = "Hola \"mundo\"";
+console.log(holaMundo);
+let amigo = "Juan";
+let saludo = "Bienvenido, "+amigo;
+console.log(saludo);
+
+//Template Strings
+let numero = "2";
+let saludo2 = `Bienvenido ${amigo} a Template String ${numero*3} veces!!`;
+console.log(saludo2);
+
+{
+	let num1 = 5;
+}

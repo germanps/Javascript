@@ -29,6 +29,32 @@ function saludar(){
 	console.log(saludo);
 }
 
+/* EcmaScript 6 */
+//nuevas variables
+let unObjeto = {
+	nombre:"German",
+	apellido:"Pla",
+	edad:41
+}
+let es6var = 'Nueva variable ES6';
+console.log(es6var);
+console.dir(unObjeto);
+
+let precio = 150;
+let impuesto = precio * 0.18;
+let descuento = precio * 0.1;
+let precioFinal = precio + impuesto - descuento;
+console.log("Precio: "+precio);
+console.log("Impuesto: "+impuesto);
+console.log("Descuento: "+descuento);
+console.log("Precio Final: "+precioFinal);
+
+//Constantes 
+
+const bornYear = 1976;
+console.log("Nací el año: "+bornYear);
+
+
 /*Tipos de datos*/
 //Primitivos => Un solo valor(Primarios y especiales)
 /*
